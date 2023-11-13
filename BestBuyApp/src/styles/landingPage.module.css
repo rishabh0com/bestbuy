@@ -1,14 +1,14 @@
 .yellowContainer{
-    height: 40vh;
+    height: 20em;
     background-color:#fff200;
 }
 
 .greyContainer{
     background-color: #f0f2f4;
-    height: 80vh;
+    height: 35em;
 }
 .productBoxes{
-    height: 90%;
+
     width: 80%;
     border: 0px solid red;
     margin: auto;
@@ -108,7 +108,7 @@
     justify-content: space-around;
     align-items: center;
 }
-button{
+.buttonPro{
     display: inline-block;
     border: 1px solid #0046be;
     font-size: 12px;
@@ -118,7 +118,18 @@ button{
     width: 120px;
     border-radius: 3px;
 }
-button:hover{
+.buttonPro:hover{
     background-color: #0046be;
     color: white;
+}
+.yellowStrip{
+    background-color: #fff200;
+    color:black;
+    font-weight: 800;
+    padding: 5px;
+}
+.spellDivs{
+    border: 2px solid black;
+    height: 30em;
+    padding: 20px;
 }

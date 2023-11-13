@@ -35,9 +35,10 @@ import styles from "../../styles/Navbar.module.css"
       <HrLine bgColor="#0096c7" height="1px"/>
       <div className={styles.bottomNav}>
         <div className={styles.bottomLeft}>
-          <div>Black Friday deal</div>
-          <div>Top Deals</div>
-          <div>Deal of the Day</div>
+          <p>Black Friday deal</p>
+          <p>Top Deals</p>
+          <p>Deal of the Day</p>
+          <p>My Best Buy Membership</p>
           <div>More
             <div>
             <i class="fa-solid fa-chevron-down"></i>

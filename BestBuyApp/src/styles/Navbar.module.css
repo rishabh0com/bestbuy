@@ -19,6 +19,7 @@
     color: #fff;
     font-weight: 700;
     font-size: larger;
+    font-weight: 500;
 }
 .topNav > div:nth-child(3){
     display: flex;
@@ -29,7 +30,7 @@
     display: flex;
     justify-content: flex-end;
     color: #fff;
-    font-weight: 700;
+    font-weight: 500;
     font-size: larger;
     align-items: center;
 
@@ -71,19 +72,19 @@ input{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 13px;
 }
-.bottomLeft > div , .bottomRight > div{
+.bottomLeft > p , .bottomRight > div{
     border: 0px solid white;
-    font-weight: 500;
     color: white;
     display: flex;
 }
 
-.bottomRight > div{
-   font-weight: 600;
+.bottomRight {
+   font-weight: 700;
+   font-size: small;
 }
-.bottomRight>div>div>i , .bottomLeft>div>div>i {
-    font-size: 12px;
+.bottomRight>div>div>i , .bottomLeft>div>p>i {
     margin-left: 10px;
 }
 .bottomRight>div:nth-child(1)>div:nth-child(1)>i{
