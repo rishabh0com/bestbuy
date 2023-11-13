@@ -43,7 +43,7 @@ import {Link} from "react-router-dom"
             fontWeight:"bold",
             fontSize:"12px"
         }}
-        ><Link>{title}</Link></p>
+        >{title}</p>
     </div>
   )
 }

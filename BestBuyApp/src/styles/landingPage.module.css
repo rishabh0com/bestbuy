@@ -41,10 +41,84 @@
     margin-top: 20px;
 }
 .newArrivalsProducts{
-    border: 2px solid black;
+    border: 0px solid black;
     margin-top: 20px;
-    height: 20em;
+    height: 18em;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.newArrivalsProducts>div{
+    border: 1px solid grey;
+    width: 49%;
+    height: 95%;
+    border-radius: 3px;
+    padding: 20px;
+}
+.newArrivalsProducts>div:nth-child(1)>p{
+    background-color: rgb(0, 70,190);
+    display: inline-block;
+    font-weight: bold;
+    height: 30px;
+    color: white;
+    width: 111px;
+    text-align: center;
+}
+.newArrivalsProducts>div:nth-child(2)>p{
+    font-weight: bold;
+}
+.newArrivalsProducts>div:nth-child(1)>p>span{
+    display: inline-block;
+    margin: 5px;
+    color: yellow;
+}
+
+.newArrivalsProducts>div:nth-child(1)>div{
+    display: flex;
+    border: 0px solid darkblue;
+    height: 90%;
     justify-content: space-around;
+    align-items: center;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div:nth-child(1)>h1{
+    font-size:2rem;
+    font-weight: 800;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div{
+    border: 0px solid red;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div:nth-child(2){
+    width: 60%;
+}
+
+.newArrivalsProducts>div:nth-child(2)>p>span{
+    display: inline-block;
+    color: #f0f2f4;
+    background-color: #CC0033;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    padding-top: 3px;
+    margin: 5px;
+}
+.newArrivalsProducts>div:nth-child(2)>div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    display: inline-block;
+    border: 1px solid #0046be;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    color: #0046be;
+    width: 120px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #0046be;
+    color: white;
 }

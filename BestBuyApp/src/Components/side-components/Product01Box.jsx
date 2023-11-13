@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Product01Box = () => {
+const Product01Box = ({title,src}) => {
   return (
     <div
     style={{
@@ -13,10 +13,10 @@ const Product01Box = () => {
     }}
     >
       <div>
-
+        <img src={src} alt="productImage" />
       </div>
       <p>
-        <a href=""></a>
+        <a href="">{title}</a>
       </p>
 
     </div>
