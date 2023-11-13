@@ -1,0 +1,50 @@
+.yellowContainer{
+    height: 40vh;
+    background-color:#fff200;
+}
+
+.greyContainer{
+    background-color: #f0f2f4;
+    height: 80vh;
+}
+.productBoxes{
+    height: 90%;
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,12em);
+    gap : 1.5rem;
+    position: relative;
+    top: -5em;
+}
+
+ .productBoxes > div{
+    border: 0px solid black;
+    padding:5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.productBoxes > div > div{
+    border: 4px solid #598bf7;
+} 
+
+.middleContainer{
+    margin: 20px;
+}
+.newArrivals{
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+}
+.newArrivalsProducts{
+    border: 2px solid black;
+    margin-top: 20px;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

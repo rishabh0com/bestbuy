@@ -1,0 +1,93 @@
+.topNav{
+    background-color: #0046be;
+    grid-gap: 48px;
+    display: grid;
+    grid-template-columns: 68px 86px 10fr 7fr 75px;
+    grid-template-rows: 1fr;
+    padding: 1rem 1.5rem;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.topNav > div {
+  border: 0px solid white;
+}
+.topNav > div:nth-child(2) , div:nth-child(5){
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+}
+.topNav > div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.topNav > div:nth-child(4){
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    align-items: center;
+
+}
+input{
+    padding: 10px;
+    color: #55555a;
+    font-size: 16px;
+    height: 40px;
+    width: 80%;
+    border-radius: 4px 0px 0 4px;
+}
+.topNav > div:nth-child(3) > button{
+    background-color: white;
+    border: 2px solid white;
+    width: 8%;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+}
+.topNav > div:nth-child(3) > button > i{
+    font-size: x-large;
+}
+
+.bottomNav{
+    background-color: #0046be;
+    align-items: center;
+    display: flex;
+    padding: .75rem 1.5rem;
+    z-index: 90;
+    justify-content: space-between;
+    height: 50px;
+}
+.bottomNav > div{
+    border: 0px solid white;
+    width: 45%;
+    height: 100%;
+}
+.bottomLeft , .bottomRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottomLeft > div , .bottomRight > div{
+    border: 0px solid white;
+    font-weight: 500;
+    color: white;
+    display: flex;
+}
+
+.bottomRight > div{
+   font-weight: 600;
+}
+.bottomRight>div>div>i , .bottomLeft>div>div>i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+.bottomRight>div:nth-child(1)>div:nth-child(1)>i{
+    align-items: center;
+    font-size: 15px;
+    margin-right: 5px;
+}
