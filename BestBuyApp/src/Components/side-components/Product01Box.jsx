@@ -27,11 +27,12 @@ const Product01Box = ({title,price,savePrice,src}) => {
       </Box>
       
       <Box 
-      borderRadius="3px" mt='10px'
-      borderWidth="1px" display="flex" p="8px"
+      borderRadius="3px" mt='10px' mb="10px"
+      borderWidth="1px" display="flex" p="5px"
        w="12em" alignItems="center" >
         <Text fontWeight="700" color='red' marginRight="3px" fontSize="11px">+Save $12.50</Text>
-        <Text fontSize='11px'>with plus or Total </Text> <ChevronRightIcon/>  
+        <Text fontSize='11px'>with plus or Total </Text> 
+        <ChevronRightIcon/>  
       </Box>
       <button
      className={styles.Buttonp}

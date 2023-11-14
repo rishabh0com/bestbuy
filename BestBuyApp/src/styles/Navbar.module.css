@@ -92,3 +92,10 @@ input{
     font-size: 15px;
     margin-right: 5px;
 }
+p{
+    font-weight: 700;
+}
+.hoverLogin{
+    position: fixed ;
+    top: 0px;
+}
