@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../../Components/main-components/Navbar';
 import styles from "../../styles/landingPage.module.css"
 import ProductBox from '../../Components/side-components/ProductBox';
-import {Box} from "@chakra-ui/react"
 import axios from "axios"
 import Product01Box from '../../Components/side-components/Product01Box';
 
@@ -10,6 +9,7 @@ import Product01Box from '../../Components/side-components/Product01Box';
 const LandingPage = () => {
 
   const [productsMilldle,setProductsMiddle] = useState([])
+  const [product01Boxes,setProduct01Boxes] = useState([])
 
   async function getMiddleProducts(){
     try {
@@ -21,6 +21,16 @@ const LandingPage = () => {
       
     }
   }
+  async function getProduct01Data(){
+    try {
+      let response = await axios.get(`http://localhost:3000/product01BoxesData`)
+      let data = await response.data
+      setProduct01Boxes(data)
+    } catch (error) {
+      
+    }
+  }
+
   useEffect(()=>{
     getMiddleProducts()
   },[])
@@ -99,6 +109,9 @@ const LandingPage = () => {
     </div>
 
     <div className={styles.spellDivs}>
+      <Product01Box />
+      <Product01Box />
+      <Product01Box />
       <Product01Box />
     </div>
 

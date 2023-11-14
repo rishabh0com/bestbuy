@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import styles from "../../styles/Navbar.module.css"
  import { HrLine } from '../side-components/HrLine';
-
+import addpic from "./addpic.jpg"
 
  const Navbar = () => {
-
     
   return (
     <>
+  
     <div className="navContainer">
+      <img src={addpic} alt="srcImage" />
       <div className={styles.topNav}>
         <div>
           <img src="https://corporate.bestbuy.com/wp-content/uploads/2021/02/BestBuyLogoReversedRGB.svg" alt="" />

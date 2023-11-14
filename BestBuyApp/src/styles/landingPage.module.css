@@ -118,7 +118,7 @@
     width: 120px;
     border-radius: 3px;
 }
-.buttonPro:hover{
+.buttonPro:hover {
     background-color: #0046be;
     color: white;
 }
@@ -130,6 +130,25 @@
 }
 .spellDivs{
     border: 2px solid black;
-    height: 30em;
     padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
 }
+.Buttonp{
+    width: 100%;
+    border: 1px solid blue;
+    color: #0046be;
+    font-size: small;
+    font-weight: 700;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background-color:white;
+}
+.Buttonp:hover{
+    background-color: #0046be;
+    color: white;
+}
+
+

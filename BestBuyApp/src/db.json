@@ -91,5 +91,24 @@
       "id": 18
     }
   ],
-  "product01BoxesData": []
+  "product01BoxesData": [
+    {
+      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553099_sd.jpg;maxHeight=240;maxWidth=240",
+      "title": "LG - 86” Class UR7800 Series LED 4K UHD Smart webOS TV",
+      "price" :"899.99",
+      "id": 1
+    },
+    {
+      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4900/4900964_sd.jpg;maxHeight=240;maxWidth=240",
+      "title": "Apple - AirPods Pro (2nd generation) - White",
+      "price" :"249.99",
+      "id": 2
+    },
+    {
+      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641_sd.jpg;maxHeight=240;maxWidth=240",
+      "title": "Apple - MacBook Pro 14\" Laptop - M3 chip - 8GB Memory - 10-core GPU - 512GB SSD (Latest Model) - Space Gray",
+      "price" :"1599l.99",
+      "id": 3
+    }
+  ]
 }
