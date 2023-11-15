@@ -2,9 +2,16 @@ import React, { useState } from 'react'
 import styles from "../../styles/Navbar.module.css"
  import { HrLine } from '../side-components/HrLine';
 import addpic from "./addpic.jpg"
-import {Image} from "@chakra-ui/react"
+import {Button, Image,Text,Box} from "@chakra-ui/react"
+import {Link} from "react-router-dom"
 
  const Navbar = () => {
+
+  const [showSignIn,setShowSignIn] = useState(true)
+
+  function showCompo(){
+    setShowSignIn(!showSignIn)
+  }
     
   return (
     <>
@@ -19,7 +26,7 @@ import {Image} from "@chakra-ui/react"
         <p>Menu</p>
         </div>
         <div>
-          <input type="text" />
+          <input type="text" placeholder="What can we help you find today?" />
           <button>
           <i class="fa-solid fa-magnifying-glass"></i>
           </button>
@@ -47,13 +54,39 @@ import {Image} from "@chakra-ui/react"
           </div>
         </div>
         <div className={styles.bottomRight}>
-          <div>
+          <div onClick={showCompo}
+          className={styles.accountSection}>
             <div>
             <i class="fa-regular fa-user"></i>
-            </div>
+            </div >
             Account
             <div>
               <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div  style={{display : showSignIn ? "block" : "none"}}>
+            <div className={styles.authpage}>
+              <Text color={"black"} textAlign="center" fontWeight="lighter" marginTop="3em">
+              My Best Buy® members get free shipping with no
+              minimum purchase. Plus, exclusive offers and more.
+              </Text>
+              <Box className={styles.authBth}
+               display="flex" flexDirection="column" p="2em">
+                <Link to="/signIn">
+                <Button h="2em" w="100%" border="1px solid #0046be"
+                bg="#0046be" color="white"
+                _hover={{backgroundColor:'#023e8a'}}
+                mb={"1em"}>Sign In</Button>
+                </Link>
+
+                <Link to="/createAccount">
+                <Button h="2em" w="100%"  border="1px solid #0046be"
+                bg="white" color="#0046be" _hover={{backgroundColor:'#023e8a',color:"white"}}
+               >Create Account</Button>
+                </Link>
+              </Box>
+            </div> 
+            <div className={styles.arrow}></div> 
+
             </div>
           </div>
           <div>
@@ -74,9 +107,10 @@ import {Image} from "@chakra-ui/react"
               <i class="fa-solid fa-chevron-down"></i>
             </div>
           </div>
-        </div>
+        </div>   
       </div>
-    </div>  
+    </div> 
+
     </>
   )
 }
