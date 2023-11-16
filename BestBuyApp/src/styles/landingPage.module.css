@@ -131,6 +131,7 @@
 .spellDivs{
     border: 2px solid black;
     padding: 20px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 10px;
@@ -149,6 +150,10 @@
 .Buttonp:hover{
     background-color: #0046be;
     color: white;
+}
+.underLineP:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
 }
 
 

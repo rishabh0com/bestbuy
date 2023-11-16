@@ -1,0 +1,12 @@
+.sideOption{
+ border: 0px solid rgb(206, 204, 204);
+ width: 24%;
+ min-height: 90vh;
+ border-width: 1px;
+}
+
+.mainContainer{
+ border: 0px solid black;
+ width: 75%;
+ min-height: 100vh;
+}

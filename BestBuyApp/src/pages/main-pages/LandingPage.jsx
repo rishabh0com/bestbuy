@@ -15,7 +15,6 @@ const LandingPage = () => {
     try {
       let response = await axios.get(` http://localhost:3000/productBoxesData`);
       let data = response.data
-      console.log(data)
       setProductsMiddle(data)
     } catch (error) {
       
@@ -23,16 +22,20 @@ const LandingPage = () => {
   }
   async function getProduct01Data(){
     try {
-      let response = await axios.get(`http://localhost:3000/product01BoxesData`)
+      let response = await axios.get(`http://localhost:3000/productData`)
       let data = await response.data
       setProduct01Boxes(data)
+      
     } catch (error) {
       
     }
   }
 
+  console.log("box",product01Boxes);
   useEffect(()=>{
+    getProduct01Data()
     getMiddleProducts()
+    
   },[])
   
 
@@ -109,10 +112,35 @@ const LandingPage = () => {
     </div>
 
     <div className={styles.spellDivs}>
-      <Product01Box />
-      <Product01Box />
-      <Product01Box />
-      <Product01Box />
+
+      <div style={{marginLeft:"2em"}}>
+        <div style={{width:"8em"}}>
+          <img src="https://pisces.bbystatic.com/image2/vector/BestBuy_US/dam/MyBestBuy_Memberships_VT-6b4c46f5-c44b-4283-bc8e-92cfb0419b70.svg" alt="" />
+        </div>
+        <p style={{marginTop:"1em",fontSize:"1.5em",fontWeight:"normal"}}>
+        Don't miss out on the best deals
+        </p>
+        <p style={{marginTop:"1.1em",fontSize:"14px",fontWeight:"lighter"}}>
+        Unlock even more exclusive member deals when you become a My Best Buy Plus™ or My Best Buy Total™ member.
+        </p>
+        <p className={styles.underLineP} style={{marginTop:"2em",fontSize:"11px",fontWeight:"lighter",color:"#0046be"}}>
+          Discover more exclusive deals
+        </p>
+      </div>
+
+      {product01Boxes.map((item,index)=>{
+        if(index % 10 == 0){
+          return(
+            <div>
+              <Product01Box 
+              src={item.images[0]} 
+              title={item.title}
+              price={item.price} />
+            </div>
+          )  
+        }
+      })}
+
     </div>
 
     </>

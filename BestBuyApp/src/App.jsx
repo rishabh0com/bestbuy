@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import LandingPage from './pages/main-pages/LandingPage'
-import CreateAcc from './pages/main-pages/CreateAcc'
 import { AuthContext } from './Context/AuthContextPro'
-import SignIn from './pages/main-pages/SignIn'
 import AllRoute from './Routes/AllRoute'
+import AllProductPage from './pages/main-pages/AllProductPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,7 +41,8 @@ function App() {
       handleSwitch
       }}>
      
-     <AllRoute />
+     {/* <AllRoute /> */}
+     <AllProductPage/>
     </AuthContext.Provider>
     </>
   )
