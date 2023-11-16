@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import styles from "../../styles/Navbar.module.css"
  import { HrLine } from '../side-components/HrLine';
 import addpic from "./addpic.jpg"
 import {Button, Image,Text,Box} from "@chakra-ui/react"
 import {Link} from "react-router-dom"
+import { AuthContext } from '../../Context/AuthContextPro';
 
  const Navbar = () => {
 
-  const [showSignIn,setShowSignIn] = useState(true)
+  const [showSignIn,setShowSignIn] = useState(false)
+  const {isAuth,createAccDetail} = useContext(AuthContext)
+  
 
   function showCompo(){
     setShowSignIn(!showSignIn)
@@ -32,7 +35,7 @@ import {Link} from "react-router-dom"
           </button>
         </div>
         <div>
-          <Image h={"40px"} src={addpic} />
+          <Image h={"35px"} src={addpic} />
           <p>Aiea</p>
         </div>
         <div>
@@ -59,7 +62,7 @@ import {Link} from "react-router-dom"
             <div>
             <i class="fa-regular fa-user"></i>
             </div >
-            Account
+            {isAuth ? `Hii, ${createAccDetail.firstName}` : "Account"}
             <div>
               <i class="fa-solid fa-chevron-down"></i>
             </div>

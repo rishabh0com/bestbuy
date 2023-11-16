@@ -91,24 +91,396 @@
       "id": 18
     }
   ],
-  "product01BoxesData": [
+  "productData": [
     {
-      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6553/6553099_sd.jpg;maxHeight=240;maxWidth=240",
-      "title": "LG - 86” Class UR7800 Series LED 4K UHD Smart webOS TV",
-      "price" :"899.99",
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525407_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525407cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525407cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6525/6525407cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Apple - iPhone 15 Pro 128GB - Blue Titanium",
+      "price": "799.99",
+      "category": "phone",
+      "brand": "apple",
       "id": 1
     },
     {
-      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/4900/4900964_sd.jpg;maxHeight=240;maxWidth=240",
-      "title": "Apple - AirPods Pro (2nd generation) - White",
-      "price" :"249.99",
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443409_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443409cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443409cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6443/6443409cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Apple - iPhone 13 5G 512GB - (PRODUCT)RED",
+      "price": "599.99",
+      "category": "phone",
+      "brand": "apple",
       "id": 2
     },
     {
-      "src": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641_sd.jpg;maxHeight=240;maxWidth=240",
-      "title": "Apple - MacBook Pro 14\" Laptop - M3 chip - 8GB Memory - 10-core GPU - 512GB SSD (Latest Model) - Space Gray",
-      "price" :"1599l.99",
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504812_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504812ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504812_bd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504812cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Apple - iPhone 14 Plus 128GB - Purple",
+      "price": "799.00",
+      "category": "phone",
+      "brand": "apple",
       "id": 3
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504794_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504794ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504794_bd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6504/6504794cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Apple - iPhone 14 128GB - Midnight",
+      "price": "799.00",
+      "category": "phone",
+      "brand": "apple",
+      "id": 4
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519915_sd.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519915_rd.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519915ld.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6519/6519915cv1d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "Google - Pixel 7 Pro 128GB",
+      "price": "649.00",
+      "category": "phone",
+      "brand": "google",
+      "id": 5
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Samsung - Galaxy S23 Ultra 256GB - Phantom Black",
+      "price": "1,199.99",
+      "category": "phone",
+      "brand": "samsung",
+      "id": 6
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538053_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538053cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538053cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538053cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Samsung - Galaxy A54 5G 128GB - Awesome Graphite",
+      "price": "449.99Your price for this item is $449.99",
+      "category": "phone",
+      "brand": "samsung",
+      "id": 7
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528956_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528956_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528956ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6528/6528956cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Samsung - Pre-Owned Galaxy S21 5G 128GB  - Phantom Gray",
+      "price": "319.99",
+      "category": "phone",
+      "brand": "samsung",
+      "id": 8
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6544/6544832_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6544/6544832_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6544/6544832ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6544/6544832_bd.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Motorola - razr+ 2023 256GB  - Infinite Black",
+      "price": "699.99",
+      "category": "phone",
+      "brand": "motorola",
+      "id": 9
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531256_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531256_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531256_bd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6531/6531256cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "OnePlus - 11 5G 256GB- Eternal Green",
+      "price": "629.99",
+      "category": "phone",
+      "brand": "one plus",
+      "id": 10
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535746_sd.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535746_rd.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535746ld.jpg;maxHeight=2000;maxWidth=2000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535746cv1d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "HP - Envy 2-in-1 15.6\" Full HD Touch-Screen Laptop - AMD Ryzen 7 7730U - 16GB Memory - 512GB SSD - Nightfall Black",
+      "price": "649.99",
+      "category": "laptop",
+      "brand": "hp",
+      "id": 11
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539910_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539910_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539910ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6539/6539910cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Dell - Inspiron 14.0\" 2-in-1 Touch Laptop - 13th Gen Intel Core i7 - 16GB Memory - 1TB SSD - Platinum Silver",
+      "price": "699.99",
+      "category": "laptop",
+      "brand": "dell",
+      "id": 12
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517659_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517659cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517659cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6517/6517659cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Microsoft - Surface Laptop 5 - 13.5” Touch-Screen - Intel Evo Platform Core i5 with 8GB Memory - 512GB SSD (Latest Model) - Sandstone",
+      "price": "899.99",
+      "category": "laptop",
+      "brand": "microsoft",
+      "id": 13
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "MacBook Air 13.6\" Laptop - Apple M2 chip - 8GB Memory - 256GB SSD - Midnight",
+      "price": "1800",
+      "category": "laptop",
+      "brand": "apple",
+      "id": 14
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721600_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721600cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721600cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721600cv13d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD - Space Gray",
+      "price": "999.99",
+      "category": "laptop",
+      "brand": "apple",
+      "id": 15
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641cv12d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534641cv15d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Apple - MacBook Pro 14\" Laptop - M3 chip - 8GB Memory - 10-core GPU - 512GB SSD (Latest Model) - Space Gray",
+      "price": "1599.00",
+      "category": "laptop",
+      "brand": "apple",
+      "id": 16
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559940_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559940_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559940ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6559/6559940cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Lenovo - Slim 7 Pro X 14\" 3K Laptop - AMD Ryzen 7 6800HS-CE - NVIDIA GeForce RTX 3050 MAXQ with 16GB Memory - 1TB SSD - Onyx Grey",
+      "price": "899.99",
+      "category": "laptop",
+      "brand": "lenovo",
+      "id": 17
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534470_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534470_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534470ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6534/6534470cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Lenovo - Legion Slim 5 16\" Gaming Laptop WQXGA - Ryzen 7 7840HS with 16GB Memory - NVIDIA GeForce RTX 4060 8GB - 512GB SSD - Storm Grey",
+      "price": "1099.99",
+      "category": "laptop",
+      "brand": "lenovo",
+      "id": 18
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535501_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535501_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535501ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535501cv10d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "Front Zoom. ASUS - ROG Zephyrus M16 16\" 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black. Angle Zoom. ASUS - ROG Zephyrus M16 16\" 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black. Left Zoom. ASUS - ROG Zephyrus M16 16\" 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black. Alt View Zoom 1. ASUS - ROG Zephyrus M16 16\" 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black. + 7 more NVIDIA Super Resolution using AI on RTX Video video 1 minutes 23 seconds 5 Videos  3D  Customer Images Highlights Get previous slide Processor Model Intel 13th Generation Core i9 This Processor Model is High. The range includes Budget, Low, Medium, High. Budget Low Medium High Designed for power users Excels at multitasking Multimedia creation Why is the processor important? System Memory (RAM) 16 gigabytes This System Memory (RAM) is High. The range includes Low, Medium, High, Very High. Low Medium High Very High Advanced gaming Professional level performance Handles demanding applications How much RAM do I need? Graphics NVIDIA GeForce RTX 4070 This Graphics is High-End. The range includes Entry-Level, Mid-Range, High-End. Entry-Level Mid-Range High-End Offers gameplay at max settings Powerful and efficient Ideal for gaming enthusiasts What's the right graphics card for me? Screen Resolution 2560 x 1440 (QHD) This Screen Resolution is Full HD. The range includes HD, Full HD, 4K Ultra HD. HD Full HD 4K Ultra HD Clearer and sharper than HD Ideal for movies and games Make the most of Full HD content Compare screen resolutions Storage Type SSD This Storage Type is SSD. The range includes eMMC, HDD, SSD, HDD+SSD. eMMC HDD SSD HDD+SSD Some capacity for HD files Apps and games run faster than with HDD Optimal gaming performance Which storage type is right for me? Total Storage Capacity 1000 gigabytes This Total Storage Capacity is Large. The range includes Small, Medium, Large, Extra Large. Small Medium Large Extra Large High resolution video Higher cost gives more storage Great for large game installs How much storage do I need? Screen Size 16 inches This Screen Size is Large. The range includes Small, Medium, Large. Small Medium Large Not quite as portable Photo and video editing Great for gaming and movies What’s the right screen size for me? Get next slide Show Full Specs  Features  Questions & Answers(151questions)  From the Manufacturer ASUS - ROG Zephyrus M16 16\" 240Hz Gaming Laptop QHD - Intel 13th Gen Core i9 with 16GB Memory-NVIDIA GeForce RTX 4070-1TB SSD - Off Black",
+      "price": "1,499.99",
+      "category": "laptop",
+      "brand": "asus",
+      "id": 19
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537003_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537003_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537003ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6537/6537003cv1d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "HP OMEN - Transcend 16\" 240Hz Wide Quad XGA Gaming Laptop - Intel Core i9 - 16GB Memory - NVIDIA GeForce RTX 4070 - 1TB SSD - Ceramic White",
+      "price": "2,199.99",
+      "category": "laptop",
+      "brand": "hp",
+      "id": 20
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536964_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536964cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536964cv11d.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536964cv12d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "Samsung - 65\" Class S90C OLED 4K UHD Smart Tizen TV",
+      "price": "1,599.99",
+      "category": "tv",
+      "brand": "samsung",
+      "id": 21
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535929_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535929_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535929_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6535/6535929cv27d.jpg;maxHeight=2000;maxWidth=2000"
+      ],
+      "title": "LG - 65\" Class C3 Series OLED 4K UHD Smart webOS TV",
+      "price": "1,599.99",
+      "category": "tv",
+      "brand": "LG",
+      "id": 22
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543908_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543908_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543908_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6543/6543908ld.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Sony - 65\" Class BRAVIA XR A80L OLED 4K UHD Smart Google TV",
+      "price": "1699.99",
+      "category": "tv",
+      "brand": "sony",
+      "id": 23
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530085_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530085_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530085_sd.jpg;maxHeight=1000;maxWidth=1000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530085ld.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Insignia™ - 43\" Class N10 Series LED Full HD TV",
+      "price": "129.99",
+      "category": "tv",
+      "brand": "insignia",
+      "id": 24
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538126_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538126_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538126_sd.jpg;maxHeight=1000;maxWidth=1000",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538126ld.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "TCL - 40\" Class S3 S-Class 1080p FHD HDR LED Smart TV with Google TV",
+      "price": "159.99",
+      "category": "tv",
+      "brand": "TCL",
+      "id": 25
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373129_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373129ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373129_bd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6373/6373129_td.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Canon - EOS 90D DSLR Camera with EF-S 18-135mm Lens - Black",
+      "price": "1599.99",
+      "category": "camera",
+      "brand": "canon",
+      "id": 26
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5977/5977704_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5977/5977704_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5977/5977704ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5977/5977704_bd.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Canon - EOS 6D Mark II DSLR Video Camera with EF 24-105mm f/4L IS II USM Lens - Black",
+      "price": "2499.99",
+      "category": "camera",
+      "brand": "canon",
+      "id": 27
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6385/6385414_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6385/6385414_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6385/6385414ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6385/6385414_bd.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Nikon - Z50 Mirrorless Camera Two Lens Kit with NIKKOR Z DX 16-50mm f/3.5-6.3 VR and NIKKOR Z DX 50-250mm f/4.5-6.3 VR Lenses - Black",
+      "price": "1149.99",
+      "category": "camera",
+      "brand": "nikon",
+      "id": 28
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470388_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470388_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470388ld.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6470/6470388_bd.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Nikon - Z fc 4K Video Mirrorless Camera w/ NIKKOR Z DX 16-50mm f/3.5-6.3 VR",
+      "price": "999.99",
+      "category": "camera",
+      "brand": "nikon",
+      "id": 29
+    },
+    {
+      "images": [
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486185_sd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486185_rd.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486185_td.jpg;maxHeight=640;maxWidth=550",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6486/6486185cv1d.jpg;maxHeight=640;maxWidth=550"
+      ],
+      "title": "Sony - Alpha 7 IV Full-frame Mirrorless Interchangeable Lens Camera with SEL2870 Lens - Black",
+      "price": "2499.99",
+      "category": "camera",
+      "brand": "sony",
+      "id": 30
     }
   ]
 }

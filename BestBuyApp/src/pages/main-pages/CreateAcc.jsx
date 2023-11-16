@@ -45,7 +45,7 @@ const CreateAcc = () => {
       <form onSubmit={(e)=>{
         e.preventDefault()
         alert(createAccDetail.email != "" && createAccDetail.password != "" && createAccDetail.firstName != "" ? "Account created successfully ✨ Please Sign In." : "Please enter valid details !")
-        navigate(createAccDetail.email && createAccDetail.password != "" && "/" )
+        navigate(createAccDetail.email && createAccDetail.password != "" && "/signIn" )
         e.target.value=""
         
         }}>
