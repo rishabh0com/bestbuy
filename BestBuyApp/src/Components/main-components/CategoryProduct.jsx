@@ -1,8 +1,13 @@
 
 import {Box,Text,Image,HStack,Button} from "@chakra-ui/react"
+import { useContext } from "react";
+import { AuthContext } from "../../Context/AuthContextPro";
 
 
-const CategoryProduct = ({title,src,price,wasPrice,brand,model,sku}) => {
+const CategoryProduct = ({title,src,price,wasPrice,brand,model,sku,item}) => {
+
+    const {cartItem,setCartItem} = useContext(AuthContext)
+
   return (
     <div>
         <Box display="flex" pb="1em"  borderBottom="1px solid rgb(206, 204, 204)" >
@@ -61,9 +66,11 @@ const CategoryProduct = ({title,src,price,wasPrice,brand,model,sku}) => {
                     <Box bg="red" fontSize="13" fontWeight="bold" pl="4px" pr="4px"  h="20px" color="white">Save ${+wasPrice - +price}</Box>
                     <Text color="black" fontSize="12" fontWeight="light">Was ${wasPrice}</Text>
                 </HStack>
-                <Button w="100%" mt="0.7em" h="1.8em" bg="rgb(255, 224, 0)" _hover={{backgroundColor:"yellow"}}>
+                <Button onClick={()=>{
+                    setCartItem([...cartItem,item]) 
+                    alert(`🛒 Product Added : ${title}`)}} w="100%" mt="0.7em" h="1.8em" bg="rgb(255, 224, 0)" _hover={{backgroundColor:"yellow"}}>
                     <Text fontSize="12" mr="1em"><i class="fa-solid fa-cart-shopping"></i></Text>
-                    <Text fontSize="12">Add to Cart</Text>
+                    <Text fontSize="12" >Add to Cart</Text>
                 </Button>
                 <HStack mt="0.5em" _hover={{textDecorationLine:"underline",cursor:"pointer"}}>
                     <Text color="black" fontSize="12" display="flex">

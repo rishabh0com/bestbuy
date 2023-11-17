@@ -76,9 +76,14 @@ import { AuthContext } from '../../Context/AuthContextPro';
           <Image h={"35px"} src={addpic} />
           <p>NewYork</p>
         </div>
-        <div>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <p>Cart</p>
+
+        <div onClick={()=>{isAuth ? null : alert("please Sign In  😊")}}>
+          <Link to={isAuth ? "/cart" : "/"} >
+          <HStack >
+          <i class="fa-solid fa-cart-shopping"></i>
+          <p>Cart</p>
+          </HStack>
+          </Link>
         </div>
       </div>
       <HrLine bgColor="#0096c7" height="1px"/>

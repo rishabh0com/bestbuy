@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../../Components/main-components/Navbar';
-import styles from "../../styles/landingPage.module.css"
-import ProductBox from '../../Components/side-components/ProductBox';
+import Navbar from '../Components/main-components/Navbar';
+import styles from "../styles/landingPage.module.css"
+import ProductBox from '../Components/side-components/ProductBox';
 import axios from "axios"
-import Product01Box from '../../Components/side-components/Product01Box';
+import Product01Box from '../Components/side-components/Product01Box';
+import {Box,HStack,Text} from "@chakra-ui/react"
 
 
 const LandingPage = () => {
@@ -31,7 +32,7 @@ const LandingPage = () => {
     }
   }
 
-  console.log("box",product01Boxes);
+  
   useEffect(()=>{
     getProduct01Data()
     getMiddleProducts()
@@ -44,7 +45,12 @@ const LandingPage = () => {
     <>
         <Navbar />
         <div className={styles.yellowContainer}>
-          <h1>Black Friday Deal</h1>
+          <HStack justifyContent="center">
+            <Text mt=".5em" fontSize="100px" color="white">Black Friday</Text>
+            <Text mt=".5em" fontSize="100px">Deal </Text>
+            <Text mt=".5em" fontSize="100px" color="white">! </Text>
+
+          </HStack>
         </div>
         <div className={styles.greyContainer}>
           

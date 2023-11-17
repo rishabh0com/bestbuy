@@ -1,13 +1,13 @@
-import AccountNav from "../../Components/side-components/AccountNav";
+import AccountNav from "../Components/side-components/AccountNav";
 import{Box,
     FormControl,Input,VStack,
     HStack,Text,Heading,FormLabel,Switch,Button} from "@chakra-ui/react"
-import { HrLine } from "../../Components/side-components/HrLine";
+import { HrLine } from "../Components/side-components/HrLine";
 import {Link,Navigate, useNavigate} from "react-router-dom"
-import styles from "../../styles/createAcc.module.css"
+import styles from "../styles/createAcc.module.css"
 import { useContext } from "react";
-import { AuthContext } from "../../Context/AuthContextPro";
-import AccFooter from "../../Components/side-components/AccFooter";
+import { AuthContext } from "../Context/AuthContextPro";
+import AccFooter from "../Components/side-components/AccFooter";
 
 function SignIn(){
 

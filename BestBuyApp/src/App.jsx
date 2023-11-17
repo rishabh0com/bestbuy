@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { AuthContext } from './Context/AuthContextPro'
 import AllRoute from './Routes/AllRoute'
-import AllProductPage from './pages/main-pages/AllProductPage'
-import CategoryProduct from './Components/main-components/categoryProduct'
+import CartPage from './pages/CartPage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +28,9 @@ function App() {
 
     const [category,setCategory] = useState("All Product")
     const [proCount,setProCount] = useState(0)
+    const [cartItem,setCartItem] = useState([]);
+
+    console.log("Cart Item : ",cartItem);
 
 
   return (
@@ -46,13 +48,16 @@ function App() {
       category,
       setCategory,
       proCount,
-      setProCount
+      setProCount,
+      cartItem,
+      setCartItem
       }}>
-     {/*  */}
+     
      <AllRoute />
      {/* <AllProductPage/> */}
-
+     {/* <CartPage /> */}
     </AuthContext.Provider>
+     
     </>
   )
 }

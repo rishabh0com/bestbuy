@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
-import Navbar from '../../Components/main-components/Navbar';
-import styles from "../../styles/allProductPage.module.css"
+import Navbar from '../Components/main-components/Navbar';
+import styles from "../styles/allProductPage.module.css"
 import {Box,Text,Image,HStack,Button,VStack} from "@chakra-ui/react"
-import CategoryProduct from '../../Components/main-components/categoryProduct';
+import CategoryProduct from '../Components/main-components/categoryProduct';
 import axios from 'axios';
 import {Link} from "react-router-dom"
-import { AuthContext } from '../../Context/AuthContextPro';
+import { AuthContext } from '../Context/AuthContextPro';
 
 
 const AllProductPage = () => {
@@ -124,14 +124,14 @@ const AllProductPage = () => {
                      borderBottom="1px solid  rgb(206, 204, 204)"
                      borderTop="1px solid  rgb(206, 204, 204)"
                      >
-                       <Text>{cateProduct.length} items</Text>
+                       <Text>{category}</Text>
                     </Box>
                 
                     <Box>
                         {cateProduct.map((item,index)=>{
                             
                             if(category == item.category || category == item.brand){
-                             
+                            
                                 return (
                                     <Box>
                                         <CategoryProduct
@@ -142,6 +142,7 @@ const AllProductPage = () => {
                                         brand={item.brand}
                                         model={item.model}
                                         sku={item.sku}
+                                        item={item}
                                          />
                                     </Box>
                                 )
@@ -158,6 +159,7 @@ const AllProductPage = () => {
                                         brand={item.brand}
                                         model={item.model}
                                         sku={item.sku}
+                                        item={item}
                                          />
                                     </Box>
                                 )

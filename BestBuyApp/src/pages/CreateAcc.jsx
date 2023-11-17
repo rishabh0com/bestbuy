@@ -1,21 +1,19 @@
 import React, { useContext, useState } from 'react'
-import styles from "../../styles/createAcc.module.css"
+import styles from "../styles/createAcc.module.css"
 import {Box,Heading,Text,Button} from "@chakra-ui/react"
 import {Link, Navigate, useNavigate} from "react-router-dom"
 import {
     FormControl,
     FormLabel,
-    FormErrorMessage,
-    FormHelperText,
     Input,
     HStack,
     VStack,
     Switch
   } from '@chakra-ui/react'
-import { AuthContext } from '../../Context/AuthContextPro'
-import { HrLine } from '../../Components/side-components/HrLine'
-import AccountNav from '../../Components/side-components/AccountNav'
-import AccFooter from '../../Components/side-components/AccFooter'
+import { AuthContext } from '../Context/AuthContextPro'
+import { HrLine } from '../Components/side-components/HrLine'
+import AccountNav from '../Components/side-components/AccountNav'
+import AccFooter from '../Components/side-components/AccFooter'
 
 const CreateAcc = () => {
 
