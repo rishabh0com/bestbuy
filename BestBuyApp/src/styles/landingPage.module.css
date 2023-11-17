@@ -35,7 +35,9 @@
     margin: 20px;
 }
 .newArrivals{
-    display: inline-block;
+    height: 9em;
+    display:block;
+    color: black;
     font-weight: bold;
     border-bottom: 3px solid black;
     margin-top: 20px;
@@ -48,11 +50,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    color: black;
 }
 .newArrivalsProducts>div{
     border: 1px solid grey;
     width: 49%;
-    height: 95%;
+    height: 80%;
     border-radius: 3px;
     padding: 20px;
 }
@@ -60,9 +64,9 @@
     background-color: rgb(0, 70,190);
     display: inline-block;
     font-weight: bold;
-    height: 30px;
+    height: 35px;
     color: white;
-    width: 111px;
+    width: 125px;
     text-align: center;
 }
 .newArrivalsProducts>div:nth-child(2)>p{
@@ -77,7 +81,7 @@
 .newArrivalsProducts>div:nth-child(1)>div{
     display: flex;
     border: 0px solid darkblue;
-    height: 90%;
+    height: 70%;
     justify-content: space-around;
     align-items: center;
 }
@@ -127,6 +131,7 @@
     color:black;
     font-weight: 800;
     padding: 5px;
+    text-align: center;
 }
 .spellDivs{
     border: 2px solid black;

@@ -1,12 +1,13 @@
 .sideOption{
- border: 0px solid rgb(206, 204, 204);
+ border: 1px solid rgb(206, 204, 204);
  width: 24%;
  min-height: 90vh;
- border-width: 1px;
+ padding: 2em;
 }
 
 .mainContainer{
  border: 0px solid black;
  width: 75%;
- min-height: 100vh;
+ height: 100vh;
+ overflow: scroll;
 }

@@ -1,110 +1,178 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../../Components/main-components/Navbar';
 import styles from "../../styles/allProductPage.module.css"
-import {Box,Text,Image,HStack,Button} from "@chakra-ui/react"
+import {Box,Text,Image,HStack,Button,VStack} from "@chakra-ui/react"
+import CategoryProduct from '../../Components/main-components/categoryProduct';
+import axios from 'axios';
+import {Link} from "react-router-dom"
+import { AuthContext } from '../../Context/AuthContextPro';
 
 
 const AllProductPage = () => {
+
+    const [cateProduct, setCateProduct] = useState([])
+    const [count,setcount] = useState(0)
+
+
+    const {category,setCategory,proCount,setProCount} = useContext(AuthContext)
+
+    console.log(category)
+ 
+
+    async function getCategoryProduct(){
+        try {
+            console.log("call")
+            let response = await axios.get(`http://localhost:3000/productData`)
+            let data = await response.data
+            setCateProduct(data)
+
+        } catch (error) {
+          console.log(error)   
+        }
+    }
+
+    useEffect(()=>{
+        getCategoryProduct();
+    },[category,setCategory])
+
+
   return (
     <>
-      <div>
-        <Navbar />
-
-        <Box mt="2em">
-            <hr />
-        </Box>
-
-        <Box display="flex" p="4em" justifyContent="space-between">
-        <div className={styles.sideOption}>
-
-        </div>
-        
-        <div className={styles.mainContainer}>
-            <Box 
-             pt="1em" pb="1em"
-             borderBottom="1px solid  rgb(206, 204, 204)"
-             borderTop="1px solid  rgb(206, 204, 204)"
-             >
-                555 items
+        <div>
+            <Navbar />
+    
+            <Box mt="2em">
+                <hr />
             </Box>
+    
+            <Box display="flex" p="4em" justifyContent="space-between">
+               <    div className={styles.sideOption}>
 
-             {/* product  */}
-            <Box display="flex" borderBottom="1px solid rgb(206, 204, 204)" >
-                <Box p="2em">
-                   <Image
-                   src='https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6551/6551176_sd.jpg;maxHeight=200;maxWidth=300'
-                    />
+                <Box>
+                <Text >Category</Text>
+                    <hr />
+                    <VStack p="1em" align='stretch'fontSize="15px" color="#0046be">
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("phone")}}>
+                            Phone's
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("laptop")}}>
+                          Laptop's
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("tv")}}>
+                            TV's
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("camera")}}>
+                            Camera's
+                        </Text>
+                    </VStack>
+
                 </Box>
 
-                <Box pt="2.8em" fontSize="12px" >
-                    <Text fontWeight="light" color="#0046be" _hover={{textDecorationLine:"underline",cursor:"pointer"}}>
-                    TCL - 40" Class S3 S-Class 1080p FHD HDR LED Smart TV with Fire TV
-                    </Text>
-                    <HStack pt="1em">
-                        <Text>Model</Text> <Text>:</Text> <Text fontWeight="light">40S35F</Text>
-                    </HStack >
-    
-                    <HStack pt="1em">
-                        <Text>SKU</Text> <Text>:</Text> <Text fontWeight="light">89756</Text>
-                    </HStack>
-    
-                    <HStack pt="1em" spacing="3px">
-                        <Text>
-                            <i class="fa-solid fa-location-dot"></i>
-                        </Text> 
-                        <Text  fontWeight="light">Pick up</Text>
-                        <Text>today</Text>
-                        <Text fontWeight="light">at</Text>
-                        <Text fontWeight="light" color="#0046be" _hover={{textDecorationLine:"underline",cursor:"pointer"}}>NewYork</Text>
-                    </HStack>
-    
-    
-    
-                    <Text pt="1em" display="flex" alignItems="center">
-                    <i class="fa-solid fa-box-open"></i>
-                    <Text ml="4px" fontWeight="light" >Shipping unavailable</Text>
-                    <Text ml="4px" fontWeight="light" color="#0046be">978779</Text>
-                    </Text>
-    
-                    <HStack pt="1em">
-                        <HStack>
-                            <Box _hover={{borderColor:"#0046eb"}} borderRadius="2px" h="18px" w="18px" border="2px solid rgb(206, 204, 204)" ></Box>
-                          <Text fontWeight="light" color="#0046be" >Compare</Text>
-                        </HStack>
-                        <HStack>
-                          <Text fontWeight="light" color="#0046be" ><i class="fa-regular fa-bookmark"></i></Text>
-                          <Text fontWeight="light" color="#0046be" >Save</Text>
-                        </HStack>
-                    </HStack>
-                </Box>
+                <Box>
 
-                <Box border="0px solid red " w="27%" m="2em">
-                    <Text fontSize="25">$199.99</Text>
-                    <HStack>
-                        <Box bg="red" fontSize="13" fontWeight="bold" pl="4px" pr="4px"  h="20px" color="white">Save $80</Box>
-                        <Text fontSize="12" fontWeight="light">Was $299.99</Text>
-                    </HStack>
-                    <Button w="100%" mt="0.7em" h="1.8em" bg="rgb(255, 224, 0)" _hover={{backgroundColor:"yellow"}}>
-                        <Text fontSize="12" mr="1em"><i class="fa-solid fa-cart-shopping"></i></Text>
-                        <Text fontSize="12">Add to Cart</Text>
-                    </Button>
-                    <HStack mt="0.5em" _hover={{textDecorationLine:"underline",cursor:"pointer"}}>
-                        <Text fontSize="12" display="flex">
-                            Open-Box:
-                            <Text fontSize="12" ml="2px" fontWeight="light" color="#0046be">
-                            from $141.99
+                <Text >Brand</Text>
+                    <hr />
+                    <VStack p="1em" align='stretch'fontSize="15px" color="#0046be">
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("google")}}>
+                            Google
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("microsoft")}}>
+                            Microsoft
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("hp")}}>
+                            HP
                         </Text>
 
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("apple")}}>
+                            Apple
                         </Text>
-                    </HStack>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("asus")}}>
+                            Asus
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("lenovo")}}>
+                            Lenovo
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("samsung")}}>
+                            Samsung
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("motorola")}}>
+                            Motorola
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("one plus")}}>
+                            One Plus
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("sony")}}>
+                            Sony
+                        </Text>
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("LG")}}>
+                            LG
+                        </Text>
+
+                        <Text _hover={{textDecorationLine:"underline",cursor:"pointer"}} fontWeight="light" onClick={()=>{setCategory("canon")}}>
+                            Canon
+                        </Text>
+
+                    </VStack>
+
                 </Box>
+
+               </div>
+               
+               <div className={styles.mainContainer}>
+                    <Box 
+                     pt="1em" pb="1em"
+                     borderBottom="1px solid  rgb(206, 204, 204)"
+                     borderTop="1px solid  rgb(206, 204, 204)"
+                     >
+                       <Text>{cateProduct.length} items</Text>
+                    </Box>
+                
+                    <Box>
+                        {cateProduct.map((item,index)=>{
+                            
+                            if(category == item.category || category == item.brand){
+                             
+                                return (
+                                    <Box>
+                                        <CategoryProduct
+                                        title={item.title}
+                                        src={item.images[0]}
+                                        price={item.price}
+                                        wasPrice={item.wasPrice}
+                                        brand={item.brand}
+                                        model={item.model}
+                                        sku={item.sku}
+                                         />
+                                    </Box>
+                                )
+                            }
+                            if(category == "All Product"){
+
+                                return (
+                                    <Box>
+                                        <CategoryProduct
+                                        title={item.title}
+                                        src={item.images[0]}
+                                        price={item.price}
+                                        wasPrice={item.wasPrice}
+                                        brand={item.brand}
+                                        model={item.model}
+                                        sku={item.sku}
+                                         />
+                                    </Box>
+                                )
+                            }
+                        })}
+                    </Box>
+                </div>
+    
+                
+    
             </Box>
         </div>
-
-        </Box>
-      </div>
     </>
   )
+  
 }
 
 

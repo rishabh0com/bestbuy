@@ -103,6 +103,9 @@
       "price": "799.99",
       "category": "phone",
       "brand": "apple",
+      "wasPrice" : "999.99",
+      "model" : "C825X2",
+      "sku" : "409151",
       "id": 1
     },
     {
@@ -116,6 +119,9 @@
       "price": "599.99",
       "category": "phone",
       "brand": "apple",
+      "wasPrice" : "799.99",
+      "model" : "QHC930",
+      "sku" : "823833",
       "id": 2
     },
     {
@@ -129,6 +135,9 @@
       "price": "799.00",
       "category": "phone",
       "brand": "apple",
+      "wasPrice" : "1000.00",
+      "model" : "D6Q409",
+      "sku" : "585103",
       "id": 3
     },
     {
@@ -142,6 +151,9 @@
       "price": "799.00",
       "category": "phone",
       "brand": "apple",
+      "wasPrice" : "1100.00",
+      "model" : "DF2Y6S",
+      "sku" : "885872",
       "id": 4
     },
     {
@@ -155,6 +167,9 @@
       "price": "649.00",
       "category": "phone",
       "brand": "google",
+      "wasPrice" : "800.00",
+      "model" : "DF382N",
+      "sku" : "769428",
       "id": 5
     },
     {
@@ -165,9 +180,12 @@
         "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6529/6529723cv13d.jpg;maxHeight=640;maxWidth=550"
       ],
       "title": "Samsung - Galaxy S23 Ultra 256GB - Phantom Black",
-      "price": "1,199.99",
+      "price": "1199.99",
       "category": "phone",
       "brand": "samsung",
+      "wasPrice" : "1599.99",
+      "model" : "6NLF1A",
+      "sku" : "100860",
       "id": 6
     },
     {
@@ -178,9 +196,12 @@
         "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6538/6538053cv13d.jpg;maxHeight=640;maxWidth=550"
       ],
       "title": "Samsung - Galaxy A54 5G 128GB - Awesome Graphite",
-      "price": "449.99Your price for this item is $449.99",
+      "price": "449.99",
       "category": "phone",
       "brand": "samsung",
+      "wasPrice" : "799.99",
+      "model" : "GQWUC4",
+      "sku" : "298214",
       "id": 7
     },
     {
@@ -194,6 +215,9 @@
       "price": "319.99",
       "category": "phone",
       "brand": "samsung",
+      "wasPrice" : "429.99",
+      "model" : "X24567",
+      "sku" : "206456",
       "id": 8
     },
     {
@@ -207,6 +231,9 @@
       "price": "699.99",
       "category": "phone",
       "brand": "motorola",
+      "wasPrice" : "899.99",
+      "model" : "A6241K",
+      "sku" : "845015",
       "id": 9
     },
     {
@@ -220,6 +247,9 @@
       "price": "629.99",
       "category": "phone",
       "brand": "one plus",
+      "wasPrice" : "700.99",
+      "model" : "3KFU8H",
+      "sku" : "087198",
       "id": 10
     },
     {
@@ -233,6 +263,9 @@
       "price": "649.99",
       "category": "laptop",
       "brand": "hp",
+      "wasPrice" : "899.99",
+      "model" : "F93Z7T",
+      "sku" : "460910",
       "id": 11
     },
     {
@@ -246,6 +279,9 @@
       "price": "699.99",
       "category": "laptop",
       "brand": "dell",
+      "wasPrice" : "1000.99",
+      "model" : "UWYDR6",
+      "sku" : "145984",
       "id": 12
     },
     {
@@ -259,6 +295,9 @@
       "price": "899.99",
       "category": "laptop",
       "brand": "microsoft",
+      "wasPrice" : "949.99",
+      "model" : "W6A3UT",
+      "sku" : "642228",
       "id": 13
     },
     {
@@ -269,9 +308,12 @@
         "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6509/6509650cv13d.jpg;maxHeight=640;maxWidth=550"
       ],
       "title": "MacBook Air 13.6\" Laptop - Apple M2 chip - 8GB Memory - 256GB SSD - Midnight",
-      "price": "1800",
+      "price": "1800.00",
       "category": "laptop",
       "brand": "apple",
+      "wasPrice" : "2000.00",
+      "model" : "2CH415",
+      "sku" : "504789",
       "id": 14
     },
     {
@@ -285,6 +327,9 @@
       "price": "999.99",
       "category": "laptop",
       "brand": "apple",
+      "wasPrice" : "1100.99",
+      "model" : "WFFKRH",
+      "sku" : "663118",
       "id": 15
     },
     {
@@ -298,6 +343,9 @@
       "price": "1599.00",
       "category": "laptop",
       "brand": "apple",
+      "wasPrice" : "1799.00",
+      "model" : "F205U9",
+      "sku" : "105288",
       "id": 16
     },
     {
@@ -311,6 +359,9 @@
       "price": "899.99",
       "category": "laptop",
       "brand": "lenovo",
+      "wasPrice" : "1049.99",
+      "model" : "7Z33L4",
+      "sku" : "133383",
       "id": 17
     },
     {
@@ -324,6 +375,9 @@
       "price": "1099.99",
       "category": "laptop",
       "brand": "lenovo",
+      "wasPrice" : "1499.99",
+      "model" : "RF1NF6",
+      "sku" : "556354",
       "id": 18
     },
     {
@@ -337,6 +391,9 @@
       "price": "1,499.99",
       "category": "laptop",
       "brand": "asus",
+      "wasPrice" : "1799.99",
+      "model" : "RUDAFS",
+      "sku" : "614160",
       "id": 19
     },
     {
@@ -350,6 +407,9 @@
       "price": "2,199.99",
       "category": "laptop",
       "brand": "hp",
+      "wasPrice" : "2399.99",
+      "model" : "0T45XD",
+      "sku" : "993747",
       "id": 20
     },
     {
@@ -360,9 +420,12 @@
         "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6536/6536964cv12d.jpg;maxHeight=2000;maxWidth=2000"
       ],
       "title": "Samsung - 65\" Class S90C OLED 4K UHD Smart Tizen TV",
-      "price": "1,599.99",
+      "price": "1599.99",
       "category": "tv",
       "brand": "samsung",
+      "wasPrice" : "1799.99",
+      "model" : "XRRKG4",
+      "sku" : "784566",
       "id": 21
     },
     {
@@ -376,6 +439,9 @@
       "price": "1,599.99",
       "category": "tv",
       "brand": "LG",
+      "wasPrice" : "1749.99",
+      "model" : "LT6LFY",
+      "sku" : "896034",
       "id": 22
     },
     {
@@ -389,6 +455,9 @@
       "price": "1699.99",
       "category": "tv",
       "brand": "sony",
+      "wasPrice" : "1899.99",
+      "model" : "616K1X",
+      "sku" : "618668",
       "id": 23
     },
     {
@@ -402,6 +471,9 @@
       "price": "129.99",
       "category": "tv",
       "brand": "insignia",
+      "wasPrice" : "149.99",
+      "model" : "6KF15R",
+      "sku" : "209821",
       "id": 24
     },
     {
@@ -415,6 +487,9 @@
       "price": "159.99",
       "category": "tv",
       "brand": "TCL",
+      "wasPrice" : "249.99",
+      "model" : "D745F3",
+      "sku" : "717469",
       "id": 25
     },
     {
@@ -428,6 +503,9 @@
       "price": "1599.99",
       "category": "camera",
       "brand": "canon",
+      "wasPrice" : "1899.99",
+      "model" : "N5GKAC",
+      "sku" : "515828",
       "id": 26
     },
     {
@@ -441,7 +519,10 @@
       "price": "2499.99",
       "category": "camera",
       "brand": "canon",
-      "id": 27
+      "id": 27,
+      "wasPrice" : "3599.99",
+      "model" : "RL5HXD",
+      "sku" : "568614"
     },
     {
       "images": [
@@ -454,6 +535,9 @@
       "price": "1149.99",
       "category": "camera",
       "brand": "nikon",
+      "wasPrice" : "1200.99",
+      "model" : "GCFNY3",
+      "sku" : "919896",
       "id": 28
     },
     {
@@ -467,6 +551,9 @@
       "price": "999.99",
       "category": "camera",
       "brand": "nikon",
+      "wasPrice" : "1100.99",
+      "model" : "4GFTLK",
+      "sku" : "878981",
       "id": 29
     },
     {
@@ -480,6 +567,9 @@
       "price": "2499.99",
       "category": "camera",
       "brand": "sony",
+      "wasPrice" : "3000.99",
+      "model" : "58S6WH",
+      "sku" : "988664",
       "id": 30
     }
   ]

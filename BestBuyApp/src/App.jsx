@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { AuthContext } from './Context/AuthContextPro'
 import AllRoute from './Routes/AllRoute'
 import AllProductPage from './pages/main-pages/AllProductPage'
+import CategoryProduct from './Components/main-components/categoryProduct'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,9 @@ function App() {
       password : ""
     })
 
+    const [category,setCategory] = useState("All Product")
+    const [proCount,setProCount] = useState(0)
+
 
   return (
     <>
@@ -38,11 +42,16 @@ function App() {
       setSignInDetail,
       showPass,
       setShowPass,
-      handleSwitch
+      handleSwitch,
+      category,
+      setCategory,
+      proCount,
+      setProCount
       }}>
-     
-     {/* <AllRoute /> */}
-     <AllProductPage/>
+     {/*  */}
+     <AllRoute />
+     {/* <AllProductPage/> */}
+
     </AuthContext.Provider>
     </>
   )

@@ -62,16 +62,14 @@ const LandingPage = () => {
             }
           </div>
         </div>
+
       
-      <div className={styles.middleContainer}>
-        <span className={styles.newArrivals}>
-              New Arrivals
-          </span>
-        <hr />
+    <div className={styles.middleContainer}>
        
-        <div className={styles.newArrivalsProducts}>
+      <div className={styles.newArrivalsProducts}>
           <div>
            <p><span>Outlet</span>Deals</p>
+          
            <div>
                <div>
                  <h1 style={{color:"#CC0033"}}>Clearance <span style={{color:"black"}}>,</span></h1>
@@ -92,7 +90,7 @@ const LandingPage = () => {
            <hr />
             <div>
               <div >
-                 <img  style={{height:"150px"}}
+                 <img  style={{height:"150px",marginRight:"50px"}}
                  src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6530/6530085_sd.jpg;maxHeight=640;maxWidth=550" alt="" />
               </div>
               <div>
@@ -102,7 +100,7 @@ const LandingPage = () => {
                 <button className={styles.buttonPro}>See Bonus deal</button>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
 
