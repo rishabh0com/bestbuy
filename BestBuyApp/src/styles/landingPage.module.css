@@ -1,0 +1,164 @@
+.yellowContainer{
+    height: 20em;
+    background-color:#ffd500;
+}
+
+.greyContainer{
+    background-color: #f0f2f4;
+    height: 35em;
+}
+.productBoxes{
+
+    width: 80%;
+    border: 0px solid red;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3,12em);
+    gap : 1.5rem;
+    position: relative;
+    top: -5em;
+}
+
+ .productBoxes > div{
+    border: 0px solid black;
+    padding:5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.productBoxes > div > div{
+    border: 4px solid #598bf7;
+} 
+
+.middleContainer{
+    margin: 20px;
+}
+.newArrivals{
+    height: 9em;
+    display:block;
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+}
+.newArrivalsProducts{
+    border: 0px solid black;
+    margin-top: 20px;
+    height: 18em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    color: black;
+}
+.newArrivalsProducts>div{
+    border: 1px solid grey;
+    width: 49%;
+    height: 80%;
+    border-radius: 3px;
+    padding: 20px;
+}
+.newArrivalsProducts>div:nth-child(1)>p{
+    background-color: rgb(0, 70,190);
+    display: inline-block;
+    font-weight: bold;
+    height: 35px;
+    color: white;
+    width: 125px;
+    text-align: center;
+}
+.newArrivalsProducts>div:nth-child(2)>p{
+    font-weight: bold;
+}
+.newArrivalsProducts>div:nth-child(1)>p>span{
+    display: inline-block;
+    margin: 5px;
+    color: yellow;
+}
+
+.newArrivalsProducts>div:nth-child(1)>div{
+    display: flex;
+    border: 0px solid darkblue;
+    height: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div:nth-child(1)>h1{
+    font-size:2rem;
+    font-weight: 800;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div{
+    border: 0px solid red;
+}
+.newArrivalsProducts>div:nth-child(1)>div>div:nth-child(2){
+    width: 60%;
+}
+
+.newArrivalsProducts>div:nth-child(2)>p>span{
+    display: inline-block;
+    color: #f0f2f4;
+    background-color: #CC0033;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    padding-top: 3px;
+    margin: 5px;
+}
+.newArrivalsProducts>div:nth-child(2)>div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.buttonPro{
+    display: inline-block;
+    border: 1px solid #0046be;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+    color: #0046be;
+    width: 120px;
+    border-radius: 3px;
+}
+.buttonPro:hover {
+    background-color: #0046be;
+    color: white;
+}
+.yellowStrip{
+    background-color: #fff200;
+    color:black;
+    font-weight: 800;
+    padding: 5px;
+    text-align: center;
+}
+.spellDivs{
+    border: 2px solid black;
+    padding: 20px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.Buttonp{
+    width: 100%;
+    border: 1px solid blue;
+    color: #0046be;
+    font-size: small;
+    font-weight: 700;
+    height: 30px;
+
+    border-radius: 3px;
+    background-color:white;
+}
+.Buttonp:hover{
+    background-color: #0046be;
+    color: white;
+}
+.underLineP:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+
