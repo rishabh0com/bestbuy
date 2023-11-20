@@ -42,7 +42,7 @@ import { AuthContext } from '../../Context/AuthContextPro';
                   </VStack>
                   <hr />
                   <Link to="/products">
-                      <Text p="5px" onClick={()=>{setCategory("All Product")}} textAlign="center" _hover={{textDecorationLine:"underline",textDecorationLine:"underline"}}>All Products</Text>
+                      <Text p="5px" onClick={()=>{setCategory("All Product")}} textAlign="center" _hover={{textDecorationLine:"underline"}}>All Products</Text>
                   </Link>
                   <hr />
                   
