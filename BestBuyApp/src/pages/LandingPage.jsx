@@ -14,7 +14,7 @@ const LandingPage = () => {
 
   async function getMiddleProducts(){
     try {
-      let response = await axios.get(` http://localhost:3000/productBoxesData`);
+      let response = await axios.get(`https://bestbuyserver-zho9.onrender.com/productBoxesData`);
       let data = response.data
       setProductsMiddle(data)
     } catch (error) {
@@ -23,7 +23,7 @@ const LandingPage = () => {
   }
   async function getProduct01Data(){
     try {
-      let response = await axios.get(`http://localhost:3000/productData`)
+      let response = await axios.get(`https://bestbuyserver-zho9.onrender.com/productData`)
       let data = await response.data
       setProduct01Boxes(data)
       

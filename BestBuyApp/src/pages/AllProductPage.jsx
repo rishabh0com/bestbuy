@@ -22,7 +22,7 @@ const AllProductPage = () => {
     async function getCategoryProduct(){
         try {
             console.log("call")
-            let response = await axios.get(`http://localhost:3000/productData`)
+            let response = await axios.get(`https://bestbuyserver-zho9.onrender.com/productData`)
             let data = await response.data
             setCateProduct(data)
 
