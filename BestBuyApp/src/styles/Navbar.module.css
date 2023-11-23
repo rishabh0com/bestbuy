@@ -133,7 +133,7 @@ p{
     position: absolute; 
     top: 5.4em;
     right: 34%;
-    z-index: 2;
+    z-index: 1;
     }
 
 .arrowMenu{

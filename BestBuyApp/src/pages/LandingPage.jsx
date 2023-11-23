@@ -5,6 +5,7 @@ import ProductBox from '../Components/side-components/ProductBox';
 import axios from "axios"
 import Product01Box from '../Components/side-components/Product01Box';
 import {Box,HStack,Text} from "@chakra-ui/react"
+import Footer from '../Components/main-components/Footer';
 
 
 const LandingPage = () => {
@@ -146,6 +147,7 @@ const LandingPage = () => {
       })}
 
     </div>
+    <Footer />
 
     </>
   )

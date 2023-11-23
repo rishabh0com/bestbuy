@@ -6,6 +6,7 @@ import CategoryProduct from '../Components/main-components/categoryProduct';
 import axios from 'axios';
 import {Link} from "react-router-dom"
 import { AuthContext } from '../Context/AuthContextPro';
+import Footer from '../Components/main-components/Footer';
 
 
 const AllProductPage = () => {
@@ -172,6 +173,7 @@ const AllProductPage = () => {
     
             </Box>
         </div>
+        <Footer />
     </>
   )
   

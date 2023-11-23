@@ -134,7 +134,7 @@
     text-align: center;
 }
 .spellDivs{
-    border: 2px solid black;
+    border: 0px solid black;
     padding: 20px;
     max-width: 100%;
     display: grid;
